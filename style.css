@@ -1,0 +1,106 @@
+
+* {
+    color: #fff;
+    font-family: 'Fira Sans';
+}
+
+html {
+    height: 100%;
+}
+body {
+    min-height: 100%;
+    margin: 0;
+}
+
+.wrapper {
+    display: flex;
+    margin: auto;
+    align-items: center;
+    gap: 10px;
+    width: 810px;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+@media screen and (max-width: 820px) {
+    .wrapper {
+        width: 405px !important;
+    }
+}
+
+.block {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    padding: 18px;
+    height: 159px;
+    outline: 1px solid #606060;
+}
+
+.big {
+    width: 364px;
+}
+.small {
+    width: 159px;
+}
+
+.title h2 {
+    color: #9000FF;
+    font-size: 16px;
+    margin: 0;
+}
+.maintitle h1 {
+    font-size: 50px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.bottomright {
+    position: absolute;
+    width: fit-content;
+    bottom: 0;
+    right: 0;
+    margin: 0;
+}
+.bottomleft {
+    position: absolute;
+    width: fit-content;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+}
+.desc {
+    margin: 16px;
+    text-align: right;
+    color: #606060;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+li {
+    margin-top: 5px;
+}
+.rightul {
+    text-align: right;
+}
+.rightul li:after {
+    content: "";
+    display: inline-block;
+    margin-bottom: 6px;
+    margin-left: 10px;
+    width: 20px;
+    height: 1px;
+    background-color: #606060;
+}
+.leftul li:before {
+    content: "";
+    display: inline-block;
+    margin-bottom: 6px;
+    margin-right: 10px;
+    width: 20px;
+    height: 1px;
+    background-color: #606060;
+}
