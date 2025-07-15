@@ -83,7 +83,7 @@ ul {
     padding: 0;
 }
 li {
-    margin-top: 5px;
+    margin-top: 8px;
 }
 .rightul {
     text-align: right;
@@ -105,4 +105,48 @@ li {
     width: 20px;
     height: 1px;
     background-color: #606060;
+}
+
+
+.link {
+    margin: 0;
+    text-decoration: none;
+}
+.link:after {
+    content: url(images/arrow.svg);
+    padding-left: 6px;
+}
+
+.link:hover {
+    background-color: #9000FF;
+    color: #000;
+    font-weight: 500;
+}
+
+.link:hover:after {
+    filter: invert(100%);
+}
+
+
+.hovertext {
+    display: inline;
+}
+
+.hovertext .hidden {
+    display: none;
+}
+
+.hovertext:hover {
+    background-color: #9000FF;
+    color: #000;
+}
+
+.hovertext:hover .shown {
+    display: none;
+}
+
+.hovertext:hover .hidden {
+    display: inline;
+    color: #000;
+    font-weight: 500;
 }
