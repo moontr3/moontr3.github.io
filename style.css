@@ -123,6 +123,12 @@ li {
     font-weight: 500;
 }
 
+.link:active {
+    background-color: #fff;
+    color: #9000FF;
+    font-weight: 500;
+}
+
 .link:hover:after {
     filter: invert(100%);
 }
@@ -146,6 +152,21 @@ li {
 }
 
 .hovertext:hover .hidden {
+    display: inline;
+    color: #000;
+    font-weight: 500;
+}
+
+.hovertext:active {
+    background-color: #9000FF;
+    color: #000;
+}
+
+.hovertext:active .shown {
+    display: none;
+}
+
+.hovertext:active .hidden {
     display: inline;
     color: #000;
     font-weight: 500;
