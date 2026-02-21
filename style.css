@@ -47,6 +47,13 @@ body {
     width: 159px;
 }
 
+.title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .title h2 {
     color: #9000FF;
     font-size: 16px;
